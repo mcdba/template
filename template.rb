@@ -15,6 +15,7 @@ end
 if yes?("Nifty layout?")
   generate :nifty_layout
 end
+
 if yes?("Use Prawn (pdf)?")
   gem "prawn"
   plugin "prawnto", :git => "git://github.com/thorny-sun/prawnto.git"
